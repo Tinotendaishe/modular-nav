@@ -6,13 +6,45 @@
 
 html {
   box-sizing: border-box;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: left;
+}
+
+li {
+  display: inline-block;
+}
+
+.current {
+  background-color: #0074d9;
+  color: #fff;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+header {
+  background-color: #e2e2e2;
 }
